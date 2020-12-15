@@ -1,0 +1,19 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "Cloning YoutTube with Vanila and NodeJS.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoony443/wetube.git"
+  },
+  "author": "DongHun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoony443/wetube/issues"
+  },
+  "homepage": "https://github.com/hoony443/wetube#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
