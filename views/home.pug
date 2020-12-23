@@ -1,0 +1,13 @@
+extends layouts/main
+include mixins/videoBlock
+
+block content
+    .videos
+        each potato in videos 
+            +videoBlock({
+                id: potato.id,
+                videoFile: potato.videoFile,
+                title: potato.title,
+                views: potato.views
+
+            }) 

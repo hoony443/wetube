@@ -1,0 +1,13 @@
+extends layouts/main
+include mixins/videoBlock
+
+block content
+    .search__header 
+        h3 Search for: #{searchingBy}
+    .search__videos
+        each potato in videos 
+            +videoBlock({
+                videoFile: potato.videoFile,
+                title: potato.title,
+                views: potato.views
+            }) 
