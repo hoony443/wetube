@@ -51,11 +51,11 @@ const routes = {
             return EDIT_VIDEO;
         }
     },
-    deleteVideo: id => {
-        if(id) {
+    deleteVideo: (id) => {
+        if(id) { 
             return `/videos/${id}/delete`;
         } else {
-            DELETE_VIDEO;
+            return DELETE_VIDEO;
         }
     }
 };
