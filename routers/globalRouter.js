@@ -15,4 +15,4 @@ globalRouter.get(routes.home, home);
 globalRouter.get(routes.search, search); 
 globalRouter.get(routes.logout, logout);
 
-export default globalRouter; 
+export default globalRouter;  
